@@ -1,0 +1,19 @@
+{
+  "name": "test2",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": " jest --runInBand --forceExit"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jest": "^27.3.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3-rc.0",
+    "node-fetch": "^2.6.1",
+    "serverless-http": "^2.7.0",
+    "supertest": "^6.1.6"
+  }
+}

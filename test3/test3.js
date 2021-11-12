@@ -24,7 +24,8 @@
 //   }
 // }
 
-// After
+
+// AFTER
 
 function findFirstStringInBracket(str) {
   // Assuming valid str argument should have at least "(", ")", and random string
