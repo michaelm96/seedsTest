@@ -12,7 +12,7 @@ class MovieController {
 
       Api.create(apiCall, (err, data) => {
         if (err)
-          res.status(500).send({
+          return res.status(500).send({
             message:
               err.message ||
               "Some error occurred while creating the api call log.",
@@ -48,7 +48,7 @@ class MovieController {
 
       Api.create(apiCall, (err, data) => {
         if (err)
-          res.status(500).send({
+          return res.status(500).send({
             message:
               err.message ||
               "Some error occurred while creating the api call log.",
@@ -92,7 +92,7 @@ class MovieController {
 
       Api.create(apiCall, (err, data) => {
         if (err)
-          res.status(500).send({
+          return res.status(500).send({
             message:
               err.message ||
               "Some error occurred while creating the api call log.",
@@ -126,7 +126,7 @@ class MovieController {
 
       Api.create(apiCall, (err, data) => {
         if (err)
-          res.status(500).send({
+          return res.status(500).send({
             message:
               err.message ||
               "Some error occurred while creating the api call log.",
